@@ -30,6 +30,7 @@ class EmpresasController {
         }
         this.gerarTabela()
     }
+    
     lerDados() {
         let empresa = {}
         empresa.nome = document.getElementById('nome').value

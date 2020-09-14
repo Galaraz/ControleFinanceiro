@@ -3,9 +3,15 @@ body {
   padding: 0px;
   font-family: sans-serif;
 }
+
+
+
 h1 {
   margin: 0px;
 }
+
+
+
 nav {
   background-color: rgb(9, 163, 198);
   float: left;
@@ -20,6 +26,7 @@ nav {
   overflow: hidden;
   transition: width 1s;
 }
+
 img {
   width: 30px;
 }
@@ -55,11 +62,15 @@ form {
 form div {
   margin: 20px 0px;
 }
+
+
+
 form input[type="text"],
 form input[type="email"],
 form input[type="datetime-local"] {
   width: 100%;
   padding: 10px;
+
 }
 form button {
   background-color: rgb(9, 163, 198);
@@ -85,6 +96,8 @@ form button {
 .aumentar-main {
   width: 100%;
 }
+
+
 .mensagens {
   display: none;
   background-color: rgb(199, 80, 80);
@@ -95,6 +108,7 @@ form button {
   width: 60%;
   animation: slide-mensagem 1s;
 }
+
 .mensagens.show {
   display: block;
 }

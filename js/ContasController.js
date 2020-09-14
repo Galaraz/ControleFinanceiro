@@ -24,6 +24,7 @@ class ContasController {
     }
 
     atualizarEstado() {
+
         if (localStorage.getItem('empresas') != null) {
             this.empresas = JSON.parse(localStorage.getItem('empresas'))
 
@@ -58,12 +59,9 @@ class ContasController {
                 }
 
 
-
-
             }
         
-        
-        
+                
         
         }
 
@@ -251,14 +249,8 @@ class ContasController {
     
     }
 
-
-           
-
-           
+  
             }
-
-       
-
 
         }
 
@@ -267,12 +259,6 @@ class ContasController {
 
 
     }
-
-
-
-
-
-
 
 
 
